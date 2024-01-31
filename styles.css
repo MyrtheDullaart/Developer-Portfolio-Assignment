@@ -1,0 +1,229 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behaviour: smooth;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+/* Header - Navigation-bar */
+.header {
+  display: grid;
+  padding: 5px;
+
+  background-color: rgb(157, 170, 255);
+  color: white;
+}
+
+.header .name {
+  font-size: 1.75rem;
+}
+
+.header .navigation-bar a {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(157, 170, 255);
+
+  font-weight: bold;
+
+  display: grid;
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  justify-content: center;
+}
+
+.header .navigation-bar {
+  display: grid;
+  padding: 15px;
+  grid-gap: 20px;
+  align-items: center;
+
+  grid-template-columns: 1fr 120px 120px 120px;
+}
+
+/* Header - Main Header */
+.header .header-main .main-heading {
+  font-size: 5rem;
+
+  padding: 20px 50px;
+}
+
+.header .header-main p {
+  padding: 0px 50px;
+
+  font-size: 1.2rem;
+}
+
+.header .header-main p span {
+  color: #011c27;
+}
+
+.header .header-main p em {
+  text-decoration: underline;
+  text-decoration-color: #011c27;
+}
+
+.header .header-main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+
+  display: grid;
+  grid-template-columns: 75ch;
+}
+
+/* Horizontal Rulers */
+hr {
+  height: 5px;
+  background-color: #011c27;
+  border: none;
+}
+
+/* Main * - About Me */
+.main .about-me-section {
+  color: #011c27;
+
+  display: grid;
+  grid-template-columns: 75ch;
+  grid-gap: 10px;
+  padding: 50px;
+
+  justify-content: center;
+}
+
+.main .about-me-section #about-me {
+  text-align: center;
+}
+
+.main .skills-section {
+  display: grid;
+  justify-content: center;
+
+  grid-template-columns: 75ch;
+  grid-gap: 10px;
+  padding: 0px 50px 50px 50px;
+}
+
+.main .skills-section ul {
+  display: grid;
+  grid-template-columns: 37.5ch 37.5ch;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+/* Main - Portfolio */
+.main .portfolio-section #portfolio {
+  text-align: center;
+
+  padding: 30px 20px 0px 0px;
+}
+
+.main .portfolio-section .portfolio-showcase .section-one,
+.main .portfolio-section .portfolio-showcase .section-two,
+.main .portfolio-section .portfolio-showcase .section-three {
+  border: 5px solid #f06c9b;
+  border-radius: 5px;
+  box-shadow: -5px 5px 5px rgba(252, 95, 239, 0.285);
+
+  display: grid;
+  padding: 20px;
+}
+
+.main .portfolio-section .portfolio-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  padding: 20px 50px 30px 50px;
+  grid-gap: 30px;
+}
+
+.main .portfolio-section .portfolio-showcase p {
+  padding: 15px 0px;
+}
+
+.main .portfolio-section .portfolio-showcase .read-more {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px 0px;
+
+  background-color: #f06c9b;
+
+  text-transform: uppercase;
+  font-weight: bold;
+
+  border-radius: 5px;
+}
+
+.main .portfolio-section .portfolio-showcase .read-more a {
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio-section .portfolio-showcase .section-one,
+.portfolio-section .portfolio-showcase .section-two,
+.portfolio-section .portfolio-showcase .section-three {
+  display: grid;
+  grid-template-rows: auto 1fr 50px 30px;
+}
+
+.main .portfolio-section .portfolio-showcase .repo {
+  display: grid;
+
+  padding: 10px;
+  justify-content: center;
+
+  font-size: 0.8rem;
+}
+
+.main .portfolio-section .portfolio-showcase .repo a {
+  color: #f06c9b;
+}
+
+/* Main - Experience */
+.main .experience-section {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 75ch;
+  grid-gap: 10px;
+  padding: 50px;
+}
+
+.main .experience-section #experience {
+  text-align: center;
+}
+
+.main .experience-section h5 {
+  padding: 20px 0px 0px 0px;
+}
+
+/* Footer */
+.footer {
+  display: grid;
+  padding: 15px 30px;
+
+  background-color: #011c27;
+  color: white;
+}
